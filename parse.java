@@ -1,4 +1,4 @@
-package BNFParser;
+package BNFParser;  //this file was in src/BNFParser    folder in my laptop
 
 import java.io.*;
 import java.util.*;
@@ -26,7 +26,7 @@ public class parse {
 
     public static void main(String[] args) throws FileNotFoundException {
         HashMap<String, String> map = new HashMap<>();
-        File file = new File("C:\\Users\\student\\Desktop\\Bot\\src\\main\\java\\BNFParser\\parse.txt");
+        File file = new File("C:\\Users\\student\\Desktop\\Bot\\src\\main\\java\\BNFParser\\parse.txt");  //Please change this link when you download it
         Scanner console = new Scanner(file);
         while (console.hasNextLine()) {
             String[] line = console.nextLine().trim().split("::=");
